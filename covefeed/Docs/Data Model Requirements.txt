@@ -1,0 +1,65 @@
+# Data Model Requirements
+Needs to let users record the drink they had, how they rate it, the coffee bean used and time information about that coffee bean.
+
+Users should be able to view how other users have rated the same bean and browse recipes for it.
+
+
+
+# Entities
+## Coffee Bean
+### Attributes 
+- Country
+- Altitude
+- *Farm/Farm name* ? (optional, adds complexity)
+- Harvest date
+- Roast date
+- Roast level
+
+
+### Considerations
+- Need a way to search for coffee beans so duplicates aren't constantly being added. Presumably done by country, harvest date, name, name of farm?
+
+
+## Drink
+### Attributes
+- Date
+- Bean
+- Style (cappucino e.t.c.)
+- Recipe 
+- Tasting notes
+- Extraction level
+- Overall quality
+- Additional notes
+
+## Tasting notes
+### Attributes
+- Look at a tasting notes wheel to produce a categorisation hierarchy. Do not allow people to add their own.
+
+## Brewing device
+### Attributes
+- Just a field with limited options.
+
+## Grind size
+### Attributes
+- Field with limited options (*use pictures to illustrate*):
+    1. Super fine
+    2. Fine
+    3. Medium Fine
+    4. Medium
+    5. Medium Coarse
+    6. Coarse
+    7. Super Coarse
+
+## Recipe
+### Attributes
+- Brewing device
+- Coffee mass
+- Total Water mass
+- Grind Size
+- Milk mass 
+- Bloom/pre-infusion time + volume
+- Total Brew time + volume
+- Notes (free text field.)
+
+### Considerations
+Could this be better off as a list of steps?
