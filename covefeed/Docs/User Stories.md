@@ -11,7 +11,9 @@
         - Misc comments
     - What bean was used
 - As a user I want to see how other people have used the same beans as me and rated them
+- As a user I want to be able to see what coffees are currently in season
 - As a user I want to receive coffee reccomendations 
+
 
 
 

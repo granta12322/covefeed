@@ -1,4 +1,4 @@
-create table as dbo.Country as
+create table dbo.Country 
 (
     [name] varchar(900) primary key
 )

@@ -1,10 +1,10 @@
-create table [dbo].User_RoastedBean as 
+create table [dbo].User_RoastedBean 
 (
     -- PK
-    primary key(ID_user, ID_roasted_bean)
+    primary key(user_fk, roasted_bean_fk)
     -- FK
     , roasted_bean_fk int not null foreign key references RoastedBean(ID_roasted_bean)
-    , user_fk int not null foreign key references 
+    , user_fk varchar(900) not null foreign key references [User](email)
     -- Data
-    , notes varchar(max) 
+    , notes varchar(max) null
 )
