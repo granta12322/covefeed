@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dnLJt2wMLQG4sLVO9EzEA8N+Xb0odsvRj9cp5uXoDqr7FbQAAV0v15A3PQEY7P93lru0iZiF7aaxYVVJQyyydg==",
+  "success": true,
+  "projectFilePath": "e:\\repos\\Covefeed\\covefeed\\covefeed\\backend\\covefeed\\covefeed\\covefeed.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bobbo\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\bobbo\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

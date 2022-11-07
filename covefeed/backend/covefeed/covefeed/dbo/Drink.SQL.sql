@@ -1,3 +1,4 @@
+-- Write your own SQL object definition here, and it'll be included in your package.
 create table dbo.Drink 
 (
     -- PK
@@ -6,7 +7,7 @@ create table dbo.Drink
     , roasted_bean_fk int not null
     , user_fk int not null
     , foreign key(roasted_bean_fk, user_fk) references User_RoastedBean(roasted_bean_fk, user_fk)
-    , recipe_fk int  null foreign key references Recipe(ID_recipe)
+    , recipe_fk int not null foreign key references Recipe(ID_recipe)
     , [date] date not null 
 )
 
