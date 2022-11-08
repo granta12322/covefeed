@@ -1,0 +1,28 @@
+/drink
+{
+  drinkNumber: <int>
+  mass: <float>
+  device: {
+    icon: <img>
+    device: <link to device page>
+  }
+  roastedBean: {
+    coffeeBean: <link>
+    roastLevel: {
+      name: <string>
+      hexCode: <string>
+    }
+  }
+  rating: <int>
+  cost: <int>
+  consumptionTime: <datetime>  
+}
+
+/period
+{
+  startDate: <dateTime>
+  endDate: <dateTime>
+  drinks: [
+    drink: <link>    
+  ]
+}
