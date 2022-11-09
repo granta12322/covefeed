@@ -72,8 +72,9 @@
     <Build Include="dbo\Location.sql" />
     <Build Include="dbo\Farm.sql" />
     <Build Include="dbo\Country.sql" />
-    <Build Include="dbo\User_RoastedBean.sql" />
     <Build Include="dbo\User.sql" />
     <Build Include="dbo\Recipe.sql" />
+    <Build Include="dbo\RoastBeanPurchase.sql" />
+    <Build Include="dbo\Vendor.sql" />
   </ItemGroup>
 </Project>
