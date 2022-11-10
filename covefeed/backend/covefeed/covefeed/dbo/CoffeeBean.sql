@@ -7,4 +7,6 @@ create table [dbo].[CoffeeBean]
     , location_fk int null foreign key references [Location](ID_location)
     , farm_fk int null foreign key references Farm(ID_farm)
     , harvest_date date null
+    -- Data
+    , name varchar(1000)
 )
