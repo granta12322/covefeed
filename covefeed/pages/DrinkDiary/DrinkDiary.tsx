@@ -1,19 +1,12 @@
 import React from "react";
-import { DrinkDiary } from "../api/Endpoint Interfaces/DrinkDiary";
+import { DrinkDiary } from "./DrinkDiary"
+import {DrinkCalendar} from "./DrinkCalendar/DrinkCalendar";
 import { useState } from "react";
+import {Period, PeriodGrain} from "./PeriodInterfaces"
 
 
-interface Period {
-    start_date?: Date
-    end_date: Date
-}
 
-interface PeriodGrain {
-    value: "day" | "week" | "month" | "3 months" | "6 months" | "year"
-
-}
-
-export function DrinkDiary(props: DrinkDiary) {
+export function DrinkDiary(settings: JSON) {
 
     var [periodGrain,setPeriodGrain] = useState({value: 'day'});
     var [period, setPeriod] = useState({end_date: getDate()});
@@ -38,22 +31,7 @@ export function DrinkDiary(props: DrinkDiary) {
             <button className="periodGranularitySelector"></button>
             <button className="aggregatePeriodsToggle"></button>
         </div>
-        <div className="drinkCalendar">
-            <div className="calendarPeriod">
-                <div className="periodTitle"></div>
-                (
-                periodAggregated
-                ? 
-                    <div className="aggregatedPeriod">
-                        <div className="aggregatedPeriodElement"></div>
-                    </div>
-                : 
-                    <div className="drink">
-                        <div className="drinkElement"></div>
-                    </div>
-                )
-            </div>
-        </div>
+        <DrinkCalendar></DrinkCalendar>
         </>
 
 
