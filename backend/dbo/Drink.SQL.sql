@@ -6,6 +6,7 @@ create table dbo.Drink
     -- FK 
     , roasted_bean_purchase_fk int not null foreign key references RoastedBeanPurchase(ID_roasted_bean_purchase)
     , recipe_fk int null foreign key references Recipe(ID_recipe)
+    , dose_grams float
     , [date] date not null 
 )
 
