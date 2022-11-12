@@ -1,8 +1,0 @@
-e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\bin\Debug\covefeed.dacpac
-e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\obj\Debug\covefeed.sqlproj.AssemblyReference.cache
-e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\obj\Debug\Model.xml
-e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\obj\Debug\refactor.xml
-e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\obj\Debug\postdeploy.sql
-e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\obj\Debug\predeploy.sql
-e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\obj\Debug\covefeed.dll
-e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\obj\Debug\covefeed.pdb

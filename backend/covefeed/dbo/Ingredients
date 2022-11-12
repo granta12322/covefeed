@@ -1,7 +1,0 @@
-create table dbo.Ingredient 
-(
-    -- PK
-    ID_ingredient int identity(1,1)
-    -- FK
-    , recipe_fk int null
-)
