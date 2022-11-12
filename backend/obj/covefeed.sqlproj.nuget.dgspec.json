@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\repos\\Covefeed\\covefeed\\covefeed\\backend\\covefeed\\covefeed\\covefeed.sqlproj": {}
+    "e:\\repos\\Covefeed\\src\\backend\\covefeed.sqlproj": {}
   },
   "projects": {
-    "e:\\repos\\Covefeed\\covefeed\\covefeed\\backend\\covefeed\\covefeed\\covefeed.sqlproj": {
+    "e:\\repos\\Covefeed\\src\\backend\\covefeed.sqlproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\repos\\Covefeed\\covefeed\\covefeed\\backend\\covefeed\\covefeed\\covefeed.sqlproj",
+        "projectUniqueName": "e:\\repos\\Covefeed\\src\\backend\\covefeed.sqlproj",
         "projectName": "covefeed",
-        "projectPath": "e:\\repos\\Covefeed\\covefeed\\covefeed\\backend\\covefeed\\covefeed\\covefeed.sqlproj",
+        "projectPath": "e:\\repos\\Covefeed\\src\\backend\\covefeed.sqlproj",
         "packagesPath": "C:\\Users\\bobbo\\.nuget\\packages\\",
-        "outputPath": "e:\\repos\\Covefeed\\covefeed\\covefeed\\backend\\covefeed\\covefeed\\obj\\",
+        "outputPath": "e:\\repos\\Covefeed\\src\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

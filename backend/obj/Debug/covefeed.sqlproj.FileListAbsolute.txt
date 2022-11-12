@@ -8,3 +8,13 @@ e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\covefeed\obj\Debug\covefeed
 e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\covefeed\obj\Debug\covefeed.pdb
 e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\covefeed\bin\Debug\covefeed.dll
 e:\repos\Covefeed\covefeed\covefeed\backend\covefeed\covefeed\bin\Debug\covefeed.pdb
+e:\repos\Covefeed\src\backend\bin\Debug\covefeed.dacpac
+e:\repos\Covefeed\src\backend\bin\Debug\covefeed.dll
+e:\repos\Covefeed\src\backend\bin\Debug\covefeed.pdb
+e:\repos\Covefeed\src\backend\obj\Debug\covefeed.sqlproj.AssemblyReference.cache
+e:\repos\Covefeed\src\backend\obj\Debug\Model.xml
+e:\repos\Covefeed\src\backend\obj\Debug\refactor.xml
+e:\repos\Covefeed\src\backend\obj\Debug\postdeploy.sql
+e:\repos\Covefeed\src\backend\obj\Debug\predeploy.sql
+e:\repos\Covefeed\src\backend\obj\Debug\covefeed.dll
+e:\repos\Covefeed\src\backend\obj\Debug\covefeed.pdb

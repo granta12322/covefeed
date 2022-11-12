@@ -1,3 +1,3 @@
 import React from "react";
 
-export function index
+//export function index

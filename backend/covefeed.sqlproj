@@ -76,5 +76,7 @@
     <Build Include="dbo\Recipe.sql" />
     <Build Include="dbo\RoastBeanPurchase.sql" />
     <Build Include="dbo\Vendor.sql" />
+    <Build Include="dbo\BrewingDevice.sql" />
+    <Build Include="dbo\Grinder.sql" />
   </ItemGroup>
 </Project>
